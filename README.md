@@ -124,9 +124,12 @@ This analysis aims to:
 ---
  
 ## 6. Key Insights
-### Insight 1
-- **Observation:**
-- **Evidence:**
+### Insight 1: Churn is concentrated in lower-tier plans
+- **Observation:**Starter plan has the highest churn rate (60.2%) compared to Enterprise (22.2%) and Business (27.4%)
+- **Evidence:**as shown in chart below starter plan churn(70%) is significantly higher than enterprise(22%)
+  
+  ![churn by plan](Images/churn by plan.png)
+  
 - **Business Meaning:**
 Insight 1: Churn is concentrated in lower-tier plans
 •	Observation: Starter plan has the highest churn rate (60.2%) compared to Enterprise (22.2%) and Business (27.4%)
