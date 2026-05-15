@@ -27,18 +27,18 @@
 - **Objective:** Analyze customer churn patterns across plans, acquisition channels, regions, and customer segments to identify key drivers and recommend retention strategies.
 - **Overall Churn Rate:** The business is experiencing a high churn rate of 52.1%, indicating significant customer attrition and potential revenue loss.
 - **Key Finding 1 (Plan-Based Risk):**
-- Starter plan shows the highest churn (71%), followed by Professional (48%).
-- Enterprise customers have the lowest churn (22.%). 
+  - Starter plan shows the highest churn (71%), followed by Professional (48%).
+  - Enterprise customers have the lowest churn (22.%). 
 - **Key Finding 2 (Acquisition Channel Impact):**
--  Referral (61%) and Partner channels (58%) have the highest churn.
--  irect Sales has the lowest churn (39%).
+  - Referral (61%) and Partner channels (58%) have the highest churn.
+  - Direct Sales has the lowest churn (39%).
 - **Key Finding 3 (Regional Risk):**
--  Latin America (62%) and Europe (55%) show the highest churn rates.
--  North America has the lowest churn (49%).  
+  - Latin America (62%) and Europe (55%) show the highest churn rates.
+  - North America has the lowest churn (49%).  
 - **Business Impact:** High churn in low-tier and certain acquisition channels is likely eroding revenue stability and increasing customer acquisition pressure 
 - **Recommendation:**
-- Improve value proposition and onboarding for Starter & Professional plans
--	Optimize acquisition strategy—reduce reliance on high-churn channels (Referral, Partners)
+  - Improve value proposition and onboarding for Starter & Professional plans
+  -	Optimize acquisition strategy—reduce reliance on high-churn channels (Referral, Partners)
  --- 
 ## 2. Problem Statement  
 CloudTask Pro, a SaaS company, has rapidly scaled its customer base from 0 to 600 customers since 2022. Despite strong revenue growth, the company is experiencing a relatively high churn rate, raising concerns among senior leadership regarding long-term sustainability and customer retention.
@@ -79,17 +79,17 @@ This analysis aims to:
 ## 4. Data Preparation
 - **Duplicates removed:** Yes
 - **Feature engineering:**
-- Churn flag(0,1)
-- Customer lifetime
-- CLV
-- Feature_usage_segment (high risk, medium risk, low risk)
-- CLV:CAC
-- New_mrr
-- Churned_mrr
-- Net_customer_growth
+  - Churn flag(0,1)
+  - Customer lifetime
+  - CLV
+  - Feature_usage_segment (high risk, medium risk, low risk)
+  - CLV:CAC
+  - New_mrr
+  - Churned_mrr
+  - Net_customer_growth
   
 - **Tools used:**
-- Excel (Pivot tables, charts, calculated fields, formulas)
+  - Excel (Pivot tables, charts, calculated fields, formulas)
 
 ## 5. Exploratory Data Analysis (EDA)
 ### 5.1 Overall Trends
@@ -99,17 +99,17 @@ This analysis aims to:
 
 ### 5.2 Segment Analysis
 - **By Plan Type:**
-- Highest churn is observed in Starter plan (70.5%), followed by Professional (48%)
-- Enterprise customers show the lowest churn (22%), indicating stronger retention among higher tier user
+  - Highest churn is observed in Starter plan (70.5%), followed by Professional (48%)
+  - Enterprise customers show the lowest churn (22%), indicating stronger retention among higher tier user
 - **By Acquisition Channel:**
-- Customers acquired via Referral (61.3%) and Partner channels (58%) exhibits highest churn rates
-- Direct Sales customers have the lowest churn(39.3%) ,suggesting higher-quality acquisitions
+  - Customers acquired via Referral (61.3%) and Partner channels (58%) exhibits highest churn rates
+  - Direct Sales customers have the lowest churn(39.3%) ,suggesting higher-quality acquisitions
 - **By Region:**
-- Latin America (61.7%) and Europe (54.9%) shows the highest churn rates
-- North America (48.9%) has the lowest churn, indicating better retention performance in this region
+  - Latin America (61.7%) and Europe (54.9%) shows the highest churn rates
+  - North America (48.9%) has the lowest churn, indicating better retention performance in this region
 - **By Company Size:**
-- Customers with 500+ employees (63.2%) and 1-10 employees (56.7%) show elevated churn rates
-- Mid segments (51-200 employees) demonstrate relatively lower churn (42.6%)
+  - Customers with 500+ employees (63.2%) and 1-10 employees (56.7%) show elevated churn rates
+  - Mid segments (51-200 employees) demonstrate relatively lower churn (42.6%)
 
 
 ### 5.3 Distribution Analysis
