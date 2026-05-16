@@ -54,7 +54,7 @@ This analysis aims to:
 --- 
 ## 3. Data Overview
 - **Data Source(s):** internal database (subscription, Monthly Revenue)
-- **Time Period:** [e.g., Feb 2022 – Dec 2025]
+- **Time Period:** Feb 2022 – Dec 2025
 - **Dataset Size:** Subscription (600 rows -17 columns), Revenue(49 rows- 8 columns)
 
 **Key Variables:**
